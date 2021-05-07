@@ -88,3 +88,34 @@ header nav ul li a{
     border: solid 1px var(--primary-color);
     margin: 50px 70px 0 0;
 }
+
+.section-title{
+    text-align: right;
+    margin: 10px;
+    height: 100%;
+}
+
+.section-title h2{
+    font-size: 36px;
+}
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-me-title{
+    width: 15%
+}
+
+.about-me-content{
+    width: 80%;
+    border-left: solid 3px var(--primary-color);
+    padding: 0 0 0 30px;
+    margin: 10px;
+}
+
+.about-me-content p{
+    font-size: 25px;
+}
