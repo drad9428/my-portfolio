@@ -140,7 +140,10 @@ header nav ul li a{
 }
 
 .primary-work{
-
+    background-image: url(../images/run-buddy.jpg);
+    height: 248px;
+    position: relative;
+    float: bottom;
 }
 
 .other-works{
