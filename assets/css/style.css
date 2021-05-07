@@ -93,6 +93,7 @@ header nav ul li a{
     text-align: right;
     margin: 10px;
     height: 100%;
+    width: 15%
 }
 
 .section-title h2{
@@ -105,10 +106,6 @@ header nav ul li a{
     justify-content: center;
 }
 
-.about-me-title{
-    width: 15%
-}
-
 .about-me-content{
     width: 80%;
     border-left: solid 3px var(--primary-color);
@@ -118,4 +115,52 @@ header nav ul li a{
 
 .about-me-content p{
     font-size: 25px;
+}
+
+.works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.works-content{
+    width: 80%;
+    border-left: solid 3px var(--primary-color);
+    padding: 0 0 0 30px;
+    margin: 10px;
+}
+
+.works-style{
+    border: solid 3px var(--secondary-color);
+    margin: 10px
+}
+
+.work-title{
+    background-color: var(--secondary-color);
+}
+
+.primary-work{
+
+}
+
+.other-works{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.work-1{
+    width: 48%;
+}
+
+.work-2{
+    width: 48%;
+}
+
+.work-3{
+    width: 48%;
+}
+
+.work-4{
+    width: 48%;
 }
