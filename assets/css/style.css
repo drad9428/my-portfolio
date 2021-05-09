@@ -91,7 +91,7 @@ header nav ul li a{
 
 .section-title{
     text-align: right;
-    margin: 10px;
+    margin: 20px 10px;
     height: 100%;
     width: 15%
 }
@@ -110,7 +110,7 @@ header nav ul li a{
     width: 80%;
     border-left: solid 3px var(--primary-color);
     padding: 0 0 0 30px;
-    margin: 10px;
+    margin: 20px;
 }
 
 .about-me-content p{
@@ -127,7 +127,7 @@ header nav ul li a{
     width: 80%;
     border-left: solid 3px var(--primary-color);
     padding: 0 0 0 30px;
-    margin: 10px;
+    margin: 20px 10px;
 }
 
 .works-style{
@@ -139,10 +139,8 @@ header nav ul li a{
     background-color: var(--secondary-color);
     width: max-content;
     padding: 5px 10px;
-}
-
-.primary-works-title{
-    float: bottom;
+    position: relative;
+    top: 170px;
 }
 
 .primary-work{
@@ -157,36 +155,41 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 248px;
+    height: 536px;
+}
+
+.primary-work:hover,
+.work-1:hover,
+.work-2:hover,
+.work-3:hover,
+.work-4:hover{
+    opacity: 100%;
+}
+
+.work-1,
+.work-2,
+.work-3,
+.work-4{
+    background-size: cover;
+    background-position: center;
+    width: 48%;
     opacity: 75%;
 }
 
 .work-1{
     background-image: url(../images/robot-gladiators.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 48%;
 }
 
 .work-2{
     background-image: url(../images/pending.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 48%;
 }
 
 .work-3{
     background-image: url(../images/pending.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 48%;
 }
 
 .work-4{
     background-image: url(../images/pending.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 48%;
 }
 
 .contact-me{
@@ -199,7 +202,7 @@ header nav ul li a{
     width: 80%;
     border-left: solid 3px var(--primary-color);
     padding: 0 0 0 30px;
-    margin: 10px;
+    margin: 20px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -216,4 +219,9 @@ header nav ul li a{
 .contact-links p{
     border-bottom: solid 2px var(--primary-color);
     padding: 0 5px;
+}
+
+footer{
+    height: 70px;
+    background-color: #132c33;
 }
