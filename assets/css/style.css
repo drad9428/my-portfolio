@@ -137,33 +137,54 @@ header nav ul li a{
 
 .work-title{
     background-color: var(--secondary-color);
+    width: max-content;
+    padding: 5px 10px;
+}
+
+.primary-works-title{
+    float: bottom;
 }
 
 .primary-work{
     background-image: url(../images/run-buddy.jpg);
+    background-size: cover;
     height: 248px;
-    position: relative;
-    float: bottom;
+    top: 30px;
+    opacity: 75%;
 }
 
 .other-works{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    height: 248px;
+    opacity: 75%;
 }
 
 .work-1{
+    background-image: url(../images/robot-gladiators.jpg);
+    background-size: cover;
+    background-position: center;
     width: 48%;
 }
 
 .work-2{
+    background-image: url(../images/pending.jpg);
+    background-size: cover;
+    background-position: center;
     width: 48%;
 }
 
 .work-3{
+    background-image: url(../images/pending.jpg);
+    background-size: cover;
+    background-position: center;
     width: 48%;
 }
 
 .work-4{
+    background-image: url(../images/pending.jpg);
+    background-size: cover;
+    background-position: center;
     width: 48%;
 }
