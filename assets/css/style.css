@@ -145,8 +145,8 @@ a {
     background-color: var(--secondary-color);
     width: max-content;
     padding: 5px 10px;
-    position: relative;
-    top: 300px;
+    position: absolute;
+    bottom: 30px;
     text-decoration: none;
     font-size: 24px;
 }
@@ -155,8 +155,8 @@ a {
     background-image: url(../images/run-buddy.jpg);
     background-size: cover;
     height: 412px;
-    top: 30px;
     opacity: 75%;
+    position: relative;
 }
 
 .other-works{
@@ -164,7 +164,6 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     height: 860px;
-
 }
 
 .primary-work:hover,
@@ -185,6 +184,7 @@ a {
     background-size: cover;
     background-position: center;
     height: 96%;
+    position: relative;
 }
 
 .work-1{
@@ -235,4 +235,115 @@ a {
 footer{
     height: 70px;
     background-color: #132c33;
+}
+
+/*smaller desktop*/
+@media screen and (max-width: 980px) {
+    header{
+        justify-content: center;
+    }
+
+    header h1{
+        text-align: center;
+        width: 100%;
+        padding: 5px 0;
+        font-size: 40px;
+        margin: 10px 0 0 0;
+    }
+
+    header nav{
+        width: 100%;
+        margin: 0;
+    }
+
+    header nav ul{
+        padding: 0;
+        justify-content: space-around;
+        margin: 15px 5px;
+        text-align: center;
+    }
+
+    header nav ul li{
+        width: 33%;
+        height: auto;
+    }
+
+    header nav ul li a{
+        font-size: 20px;
+        margin: 0;
+    }
+
+    .hero h2{
+        margin: 50px 20px 0 0;
+    }
+
+    .section-title{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .section-title h2{
+        font-size: 36px;
+        margin: 30px 0 0 0;
+    }
+
+    .about-me{
+        text-align: center;
+    }
+
+    .about-me-content{
+        padding: 20px 10px;
+        border-left: none;
+        border-top: solid 3px var(--primary-color);
+        margin: 5px 20px 20px 20px;
+    }
+
+    .about-me-content p{
+        font-size: 20px;
+    }
+
+    .works-content{
+        padding: 20px 10px;
+        border-left: none;
+        border-top: solid 3px var(--primary-color);
+        margin: 5px 20px 20px 20px;
+    }
+
+    .work-title{
+        font-size: 16px;
+    }
+
+    .primary-work{
+        height: 206px;
+        margin: 0 10px;
+    }
+
+    .other-works{
+        height: 430px;
+    }
+
+    .contact-links{
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 10px;
+        border-left: none;
+        border-top: solid 3px var(--primary-color);
+        margin: 5px 20px 20px 20px;
+    }
+
+    .contact-links a,
+    .contact-links p{
+        padding: 5px;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* mobile */
+@media screen and (max-width: 575px) {
+    
 }
