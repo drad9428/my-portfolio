@@ -293,10 +293,10 @@ footer{
     }
 
     .about-me-content{
-        padding: 20px 10px;
+        padding: 20px 10px 0 10px;
         border-left: none;
         border-top: solid 3px var(--primary-color);
-        margin: 5px 20px 20px 20px;
+        margin: 5px 20px 0 20px;
     }
 
     .about-me-content p{
@@ -312,6 +312,7 @@ footer{
 
     .work-title{
         font-size: 16px;
+        bottom: 20px;
     }
 
     .primary-work{
@@ -335,15 +336,42 @@ footer{
     .contact-links a,
     .contact-links p{
         padding: 5px;
+        font-size: 24px;
     }
 }
 
 /* tablet */
 @media screen and (max-width: 768px) {
-    
+    .other-works{
+        height: 300px;
+    }
 }
 
 /* mobile */
 @media screen and (max-width: 575px) {
+    .hero{
+        justify-content: center;
+    }
     
+    .hero h2{
+        margin: 10px;
+    }
+
+    .works{
+        overflow: hidden;
+    }
+
+    .works-content{
+        padding: 20px 0 0 0;
+    }
+
+    .other-works{
+        flex-direction: column;
+    }
+
+    .other-works a{
+        width: 100%;
+        padding: 5px 0;
+        height: 103px;
+    }
 }
