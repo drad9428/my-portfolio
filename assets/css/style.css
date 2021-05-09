@@ -26,7 +26,7 @@ header{
 
 header h1{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 56px;
     background-color: var(--secondary-color);
     margin: 10px 0;
     padding: 5px 10px 5px 50px;
@@ -63,6 +63,11 @@ header nav ul li a{
     border-bottom: solid 1px var(--secondary-color) ;
 }
 
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
 .hero{
     background-image: url(../images/hero-bg.jpg);
     background-size: cover;
@@ -97,7 +102,8 @@ header nav ul li a{
 }
 
 .section-title h2{
-    font-size: 36px;
+    font-size: 48px;
+    margin: 30px 0;
 }
 
 .about-me{
@@ -109,7 +115,7 @@ header nav ul li a{
 .about-me-content{
     width: 80%;
     border-left: solid 3px var(--primary-color);
-    padding: 0 0 0 30px;
+    padding: 10px 0 10px 30px;
     margin: 20px;
 }
 
@@ -126,7 +132,7 @@ header nav ul li a{
 .works-content{
     width: 80%;
     border-left: solid 3px var(--primary-color);
-    padding: 0 0 0 30px;
+    padding: 10px 0 10px 30px;
     margin: 20px 10px;
 }
 
@@ -140,13 +146,15 @@ header nav ul li a{
     width: max-content;
     padding: 5px 10px;
     position: relative;
-    top: 170px;
+    top: 300px;
+    text-decoration: none;
+    font-size: 24px;
 }
 
 .primary-work{
     background-image: url(../images/run-buddy.jpg);
     background-size: cover;
-    height: 248px;
+    height: 412px;
     top: 30px;
     opacity: 75%;
 }
@@ -155,15 +163,19 @@ header nav ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height: 536px;
+    height: 860px;
+
 }
 
 .primary-work:hover,
-.work-1:hover,
-.work-2:hover,
-.work-3:hover,
-.work-4:hover{
+.other-works a:hover{
     opacity: 100%;
+}
+
+.other-works a{
+    opacity: 75%;
+    height: 430;
+    width: 50%;
 }
 
 .work-1,
@@ -172,8 +184,7 @@ header nav ul li a{
 .work-4{
     background-size: cover;
     background-position: center;
-    width: 48%;
-    opacity: 75%;
+    height: 96%;
 }
 
 .work-1{
@@ -201,12 +212,12 @@ header nav ul li a{
 .contact-links{
     width: 80%;
     border-left: solid 3px var(--primary-color);
-    padding: 0 0 0 30px;
+    padding: 10px 0 10px 30px;
     margin: 20px 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    font-size: 24px;
+    font-size: 30px;
     align-items: center;
 }
 
